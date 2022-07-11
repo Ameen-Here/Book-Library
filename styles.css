@@ -113,11 +113,11 @@ body {
 }
 
 .toggle input:checked + .slider {
-  border: 2px solid #f321e9;
+  border: 2px solid rgb(78, 191, 191);
 }
 
 .toggle input:checked + .slider::before {
-  background-color: #ce67c9;
+  background-color: rgb(78, 191, 191, 0.6);
 }
 
 .toggle .labels {
